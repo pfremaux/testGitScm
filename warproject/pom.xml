@@ -15,12 +15,12 @@
 <repository>
     <id>localSnap</id>
     <name>RepositoryProxyRel</name>
-    <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+    <url>http://localhost:8081/repository/maven-releases/</url>
 </repository>
 <snapshotRepository>
     <id>MylocalSnap</id>
     <name>RepositoryProxySnap</name>
-    <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+    <url>http://localhost:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
 <dependencies>
