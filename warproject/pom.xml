@@ -10,6 +10,19 @@
     <connection>scm:git:https://github.com/pfremaux/testGitScm.git</connection>
   <tag>master</tag>
   </scm>  
+
+<distributionManagement>
+<repository>
+    <id>localSnap</id>
+    <name>RepositoryProxyRel</name>
+    <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+</repository>
+<snapshotRepository>
+    <id>MylocalSnap</id>
+    <name>RepositoryProxySnap</name>
+    <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+</snapshotRepository>
+
 <dependencies>
     <dependency>
       <groupId>junit</groupId>
