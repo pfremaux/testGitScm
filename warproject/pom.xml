@@ -22,7 +22,7 @@
     <name>RepositoryProxySnap</name>
     <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
 </snapshotRepository>
-
+</distributionManagement>
 <dependencies>
     <dependency>
       <groupId>junit</groupId>
