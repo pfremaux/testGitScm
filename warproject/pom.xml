@@ -13,16 +13,17 @@
 
 <distributionManagement>
 <repository>
-    <id>localSnap</id>
+    <id>localRelease</id>
     <name>RepositoryProxyRel</name>
     <url>http://localhost:8081/repository/maven-releases/</url>
 </repository>
 <snapshotRepository>
-    <id>MylocalSnap</id>
+    <id>localSnapshot</id>
     <name>RepositoryProxySnap</name>
     <url>http://localhost:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
+
 <dependencies>
     <dependency>
       <groupId>junit</groupId>
