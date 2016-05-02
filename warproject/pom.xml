@@ -3,12 +3,12 @@
   <groupId>pfr.test</groupId>
   <artifactId>warproject</artifactId>
   <packaging>jar</packaging>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <name>warproject Maven Webapp</name>
   <url>http://maven.apache.org</url>
 <scm>
     <connection>scm:git:https://github.com/pfremaux/testGitScm.git</connection>
-  <tag>master</tag>
+  <tag>warproject-1.4</tag>
   </scm>  
 
 <distributionManagement>
